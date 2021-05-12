@@ -50,7 +50,7 @@ export default function SignInPage({dataClient, setDataClient}) {
         }
         dataClient.push({username: username, password: password});
         setDataClient([...dataClient])
-        history.push('/Exo1-3')
+        history.push('/Exo03')
     }
     return <Grid container item xs={12} style={{height: '100vh'}} alignItems={'center'} justify={'center'}>
         <Grid container item xs={11} md={4} lg={4} style={{height: '100%'}} alignItems={'center'}>
@@ -112,7 +112,7 @@ export default function SignInPage({dataClient, setDataClient}) {
                         <Button variant="contained" color="secondary" style={{width: '100%'}} onClick={handleSignIn}>SIG-IN</Button>
                     </Grid>
                     <Grid container item xs={12} style={{marginTop: 10}}>
-                        <Button variant="contained" color="primary" style={{width: '100%'}} onClick={() => history.push('/Exo1-3')}>BACK</Button>
+                        <Button variant="contained" color="primary" style={{width: '100%'}} onClick={() => history.push('/Exo03')}>BACK</Button>
                     </Grid>
                 </Grid>
             </Paper>
