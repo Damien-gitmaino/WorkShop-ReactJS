@@ -53,8 +53,11 @@ export default function SignInPage({dataClient, setDataClient}) {
         history.push('/Exo03')
     }
     return <Grid container item xs={12} style={{height: '100vh'}} alignItems={'center'} justify={'center'}>
+        <div style={{width: '100%', height: '100%', position: 'absolute', left: 0, top: 0}}>
+            <img src={"./b-space.jpg"} style={{width: '100%', height: '100%'}} />
+        </div>
         <Grid container item xs={11} md={4} lg={4} style={{height: '100%'}} alignItems={'center'}>
-            <Paper elevation={5} style={{width: '100%', padding: 20}}>
+            <Paper elevation={5} style={{width: '100%', padding: 20, background: 'white', zIndex: 5}}>
                 <Grid container item xs={12} justify={'center'}>
                     <Typography variant="h6">Sign in</Typography>
                 </Grid>
