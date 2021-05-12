@@ -37,7 +37,7 @@ export default function LoginPage({dataClient}) {
     }
 
     const handleSignIn  = () => {
-        history.push('/sig-in')
+        history.push('/Exo1-3/sigin')
     }
 
     return <Grid container item xs={12} style={{height: '100vh'}} alignItems={'center'} justify={'center'}>

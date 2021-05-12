@@ -3,6 +3,7 @@ import './App.css';
 import {Button} from '@material-ui/core'
 import LoginPage from "./Components/Exo1/LoginPage";
 import {BrowserRoute as Router, Route, useHistory} from 'react-router-dom';
+import CoreExo2 from "./Components/Exo2/CoreExo2";
 
 const data = [
   {
@@ -17,7 +18,7 @@ const data = [
     },
     {
         name: 'Exercice 3',
-        component: <div>Login - account</div>,
+        component: <CoreExo2 />,
         path: '/Exo1-3',
     },
 ];
